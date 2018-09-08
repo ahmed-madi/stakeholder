@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include stakeholder *.css
+recursive-include stakeholder *.csv
+recursive-include stakeholder *.html
+recursive-include stakeholder *.ico
+recursive-include stakeholder *.js
+recursive-include stakeholder *.json
+recursive-include stakeholder *.md
+recursive-include stakeholder *.png
+recursive-include stakeholder *.py
+recursive-include stakeholder *.svg
+recursive-include stakeholder *.txt
+recursive-exclude stakeholder *.pyc
